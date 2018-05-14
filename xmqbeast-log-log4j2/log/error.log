@@ -1,0 +1,6 @@
+2018.05.14 at 17:38:39 GMT+08:00 ERROR com.xmqbeast.log.log4j2.service.LoggerService showLog() @22 - 我是ERROR日志
+2018.05.14 at 17:38:39 GMT+08:00 ERROR com.xmqbeast.log.log4j2.service.LoggerService showLog() @24 - 我是ERROR日志
+2018.05.14 at 17:38:39 GMT+08:00 FATAL com.xmqbeast.log.log4j2.service.LoggerService showLog() @26 - 我是FATAL日志
+2018.05.14 at 17:40:42 GMT+08:00 ERROR com.xmqbeast.log.log4j2.service.LoggerService showLog() @22 - 我是ERROR日志
+2018.05.14 at 17:40:42 GMT+08:00 ERROR com.xmqbeast.log.log4j2.service.LoggerService showLog() @25 - 我是ERROR日志
+2018.05.14 at 17:40:42 GMT+08:00 FATAL com.xmqbeast.log.log4j2.service.LoggerService showLog() @27 - 我是FATAL日志

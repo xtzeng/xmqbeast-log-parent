@@ -1,0 +1,75 @@
+2018.05.14 at 17:36:51 GMT+08:00 INFO  org.springframework.boot.StartupInfoLogger logStarting() @48 - Starting Application on MSI with PID 8752 (D:\xiaoti\deploy-workspace\xmqbeast-log-parent\xmqbeast-log-log4j2\target\classes started by msi- in D:\xiaoti\deploy-workspace\xmqbeast-log-parent\xmqbeast-log-log4j2)
+2018.05.14 at 17:36:51 GMT+08:00 INFO  org.springframework.boot.SpringApplication logStartupProfileInfo() @593 - No active profile set, falling back to default profiles: default
+2018.05.14 at 17:36:51 GMT+08:00 INFO  org.springframework.context.support.AbstractApplicationContext prepareRefresh() @583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40f70521: startup date [Mon May 14 17:36:51 GMT+08:00 2018]; root of context hierarchy
+2018.05.14 at 17:36:52 GMT+08:00 INFO  org.hibernate.validator.internal.util.Version <clinit>() @30 - HV000001: Hibernate Validator 5.3.5.Final
+2018.05.14 at 17:36:54 GMT+08:00 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer initialize() @89 - Tomcat initialized with port(s): 80 (http)
+2018.05.14 at 17:36:54 GMT+08:00 INFO  org.apache.juli.logging.DirectJDKLog log() @179 - Starting service [Tomcat]
+2018.05.14 at 17:36:54 GMT+08:00 INFO  org.apache.juli.logging.DirectJDKLog log() @179 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2018.05.14 at 17:36:54 GMT+08:00 INFO  org.apache.juli.logging.DirectJDKLog log() @179 - Initializing Spring embedded WebApplicationContext
+2018.05.14 at 17:36:54 GMT+08:00 INFO  org.springframework.boot.context.embedded.EmbeddedWebApplicationContext prepareEmbeddedWebApplicationContext() @276 - Root WebApplicationContext: initialization completed in 2722 ms
+2018.05.14 at 17:36:54 GMT+08:00 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean onStartup() @190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018.05.14 at 17:36:54 GMT+08:00 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean configure() @258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018.05.14 at 17:36:54 GMT+08:00 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean configure() @258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018.05.14 at 17:36:54 GMT+08:00 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean configure() @258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018.05.14 at 17:36:54 GMT+08:00 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean configure() @258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018.05.14 at 17:36:55 GMT+08:00 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache() @534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40f70521: startup date [Mon May 14 17:36:51 GMT+08:00 2018]; root of context hierarchy
+2018.05.14 at 17:36:55 GMT+08:00 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry register() @543 - Mapped "{[/log/show]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.xmqbeast.log.log4j2.controller.ApiController.shotLog(java.lang.String,int)
+2018.05.14 at 17:36:55 GMT+08:00 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry register() @543 - Mapped "{[/log/show2]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.xmqbeast.log.log4j2.controller.ApiController.shotLog(java.lang.String)
+2018.05.14 at 17:36:55 GMT+08:00 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry register() @543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018.05.14 at 17:36:55 GMT+08:00 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry register() @543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018.05.14 at 17:36:55 GMT+08:00 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler() @362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018.05.14 at 17:36:55 GMT+08:00 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler() @362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018.05.14 at 17:36:56 GMT+08:00 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler() @362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018.05.14 at 17:36:56 GMT+08:00 INFO  org.springframework.jmx.export.MBeanExporter afterSingletonsInstantiated() @431 - Registering beans for JMX exposure on startup
+2018.05.14 at 17:36:56 GMT+08:00 INFO  org.apache.juli.logging.DirectJDKLog log() @179 - Initializing ProtocolHandler ["http-nio-80"]
+2018.05.14 at 17:36:56 GMT+08:00 INFO  org.apache.juli.logging.DirectJDKLog log() @179 - Starting ProtocolHandler ["http-nio-80"]
+2018.05.14 at 17:36:56 GMT+08:00 INFO  org.apache.juli.logging.DirectJDKLog log() @179 - Using a shared selector for servlet write/read
+2018.05.14 at 17:36:56 GMT+08:00 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer start() @201 - Tomcat started on port(s): 80 (http)
+2018.05.14 at 17:36:56 GMT+08:00 INFO  org.springframework.boot.StartupInfoLogger logStarted() @57 - Started Application in 5.364 seconds (JVM running for 6.407)
+2018.05.14 at 17:37:25 GMT+08:00 INFO  org.springframework.boot.StartupInfoLogger logStarting() @48 - Starting Application on MSI with PID 22568 (D:\xiaoti\deploy-workspace\xmqbeast-log-parent\xmqbeast-log-log4j2\target\classes started by msi- in D:\xiaoti\deploy-workspace\xmqbeast-log-parent\xmqbeast-log-log4j2)
+2018.05.14 at 17:37:25 GMT+08:00 INFO  org.springframework.boot.SpringApplication logStartupProfileInfo() @593 - No active profile set, falling back to default profiles: default
+2018.05.14 at 17:37:25 GMT+08:00 INFO  org.springframework.context.support.AbstractApplicationContext prepareRefresh() @583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40f70521: startup date [Mon May 14 17:37:25 GMT+08:00 2018]; root of context hierarchy
+2018.05.14 at 17:37:25 GMT+08:00 INFO  org.hibernate.validator.internal.util.Version <clinit>() @30 - HV000001: Hibernate Validator 5.3.5.Final
+2018.05.14 at 17:37:27 GMT+08:00 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer initialize() @89 - Tomcat initialized with port(s): 80 (http)
+2018.05.14 at 17:37:27 GMT+08:00 INFO  org.apache.juli.logging.DirectJDKLog log() @179 - Starting service [Tomcat]
+2018.05.14 at 17:37:27 GMT+08:00 INFO  org.apache.juli.logging.DirectJDKLog log() @179 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2018.05.14 at 17:37:27 GMT+08:00 INFO  org.apache.juli.logging.DirectJDKLog log() @179 - Initializing Spring embedded WebApplicationContext
+2018.05.14 at 17:37:27 GMT+08:00 INFO  org.springframework.boot.context.embedded.EmbeddedWebApplicationContext prepareEmbeddedWebApplicationContext() @276 - Root WebApplicationContext: initialization completed in 1976 ms
+2018.05.14 at 17:37:28 GMT+08:00 INFO  org.springframework.boot.web.servlet.ServletRegistrationBean onStartup() @190 - Mapping servlet: 'dispatcherServlet' to [/]
+2018.05.14 at 17:37:28 GMT+08:00 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean configure() @258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018.05.14 at 17:37:28 GMT+08:00 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean configure() @258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018.05.14 at 17:37:28 GMT+08:00 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean configure() @258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018.05.14 at 17:37:28 GMT+08:00 INFO  org.springframework.boot.web.servlet.AbstractFilterRegistrationBean configure() @258 - Mapping filter: 'requestContextFilter' to: [/*]
+2018.05.14 at 17:37:28 GMT+08:00 INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache() @534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@40f70521: startup date [Mon May 14 17:37:25 GMT+08:00 2018]; root of context hierarchy
+2018.05.14 at 17:37:28 GMT+08:00 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry register() @543 - Mapped "{[/log/show]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.xmqbeast.log.log4j2.controller.ApiController.shotLog(java.lang.String,int)
+2018.05.14 at 17:37:28 GMT+08:00 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry register() @543 - Mapped "{[/log/show2]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.xmqbeast.log.log4j2.controller.ApiController.shotLog(java.lang.String)
+2018.05.14 at 17:37:28 GMT+08:00 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry register() @543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018.05.14 at 17:37:28 GMT+08:00 INFO  org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry register() @543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018.05.14 at 17:37:29 GMT+08:00 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler() @362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018.05.14 at 17:37:29 GMT+08:00 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler() @362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018.05.14 at 17:37:29 GMT+08:00 INFO  org.springframework.web.servlet.handler.AbstractUrlHandlerMapping registerHandler() @362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018.05.14 at 17:37:29 GMT+08:00 INFO  org.springframework.jmx.export.MBeanExporter afterSingletonsInstantiated() @431 - Registering beans for JMX exposure on startup
+2018.05.14 at 17:37:29 GMT+08:00 INFO  org.apache.juli.logging.DirectJDKLog log() @179 - Initializing ProtocolHandler ["http-nio-80"]
+2018.05.14 at 17:37:29 GMT+08:00 INFO  org.apache.juli.logging.DirectJDKLog log() @179 - Starting ProtocolHandler ["http-nio-80"]
+2018.05.14 at 17:37:29 GMT+08:00 INFO  org.apache.juli.logging.DirectJDKLog log() @179 - Using a shared selector for servlet write/read
+2018.05.14 at 17:37:29 GMT+08:00 INFO  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer start() @201 - Tomcat started on port(s): 80 (http)
+2018.05.14 at 17:37:29 GMT+08:00 INFO  org.springframework.boot.StartupInfoLogger logStarted() @57 - Started Application in 4.186 seconds (JVM running for 5.018)
+2018.05.14 at 17:38:14 GMT+08:00 INFO  org.apache.juli.logging.DirectJDKLog log() @179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018.05.14 at 17:38:14 GMT+08:00 INFO  org.springframework.web.servlet.FrameworkServlet initServletBean() @489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018.05.14 at 17:38:14 GMT+08:00 INFO  org.springframework.web.servlet.FrameworkServlet initServletBean() @508 - FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2018.05.14 at 17:38:39 GMT+08:00 INFO  com.xmqbeast.log.log4j2.config.WebLogAspect doBefore() @32 - 请求地址 : http://localhost/log/show
+2018.05.14 at 17:38:39 GMT+08:00 INFO  com.xmqbeast.log.log4j2.config.WebLogAspect doBefore() @33 - HTTP METHOD : GET
+2018.05.14 at 17:38:39 GMT+08:00 INFO  com.xmqbeast.log.log4j2.config.WebLogAspect doBefore() @34 - IP : 0:0:0:0:0:0:0:1
+2018.05.14 at 17:38:39 GMT+08:00 INFO  com.xmqbeast.log.log4j2.config.WebLogAspect doBefore() @35 - CLASS_METHOD : com.xmqbeast.log.log4j2.controller.ApiController.shotLog
+2018.05.14 at 17:38:39 GMT+08:00 INFO  com.xmqbeast.log.log4j2.config.WebLogAspect doBefore() @37 - 参数 : [111, 8]
+2018.05.14 at 17:38:39 GMT+08:00 INFO  com.xmqbeast.log.log4j2.service.LoggerService showLog() @20 - 我是INFO日志
+2018.05.14 at 17:38:39 GMT+08:00 WARN  com.xmqbeast.log.log4j2.service.LoggerService showLog() @21 - 我是WARN日志
+2018.05.14 at 17:38:39 GMT+08:00 ERROR com.xmqbeast.log.log4j2.service.LoggerService showLog() @22 - 我是ERROR日志
+2018.05.14 at 17:38:39 GMT+08:00 ERROR com.xmqbeast.log.log4j2.service.LoggerService showLog() @24 - 我是ERROR日志
+2018.05.14 at 17:38:39 GMT+08:00 FATAL com.xmqbeast.log.log4j2.service.LoggerService showLog() @26 - 我是FATAL日志
+2018.05.14 at 17:38:39 GMT+08:00 INFO  com.xmqbeast.log.log4j2.config.WebLogAspect doAround() @52 - 耗时 : 13
+2018.05.14 at 17:38:39 GMT+08:00 INFO  com.xmqbeast.log.log4j2.config.WebLogAspect doAfterReturning() @45 - 返回值 : {name=111, age=8}
+2018.05.14 at 17:40:42 GMT+08:00 WARN  com.xmqbeast.log.log4j2.service.LoggerService showLog() @21 - 我是WARN日志
+2018.05.14 at 17:40:42 GMT+08:00 ERROR com.xmqbeast.log.log4j2.service.LoggerService showLog() @22 - 我是ERROR日志
+2018.05.14 at 17:40:42 GMT+08:00 ERROR com.xmqbeast.log.log4j2.service.LoggerService showLog() @25 - 我是ERROR日志
+2018.05.14 at 17:40:42 GMT+08:00 FATAL com.xmqbeast.log.log4j2.service.LoggerService showLog() @27 - 我是FATAL日志
